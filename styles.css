@@ -1,0 +1,65 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+h1 {
+  transform: translateY(100px);
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+}
+button {
+  text-transform: capitalize;
+}
+main {
+  text-align: center;
+}
+body {
+  background-color: #202020;
+  color: white;
+}
+.buttons li {
+  display: inline;
+  list-style: none;
+  margin: 10px;
+  /* padding-left: 10px; */
+}
+.stopwatch {
+  font-size: 100px;
+  padding: 0;
+}
+button {
+  padding: 10px;
+  font-size: 20px;
+  background-color: #202020;
+  color: white;
+  border: 3px solid white;
+  border-radius: 50px;
+  width: 100px;
+  height: 50px;
+  outline: none;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.buttons {
+  transform: translate(-20px, -60px);
+  /* transform: translateY(-60px); */
+}
+
+div.lap {
+  font-size: 30px;
+}
+h1.laps {
+  transform: translateY(-40px);
+}
+p.lapRecord {
+  transform: translateY(-40px);
+}
+
+a {
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
