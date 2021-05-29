@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 h1 {
   transform: translateY(100px);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", sans-serif;
   letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 button {
   text-transform: capitalize;
@@ -33,11 +36,13 @@ button.stop {
   color: white;
   border: 3px solid white;
   border-radius: 50px;
-  width: 100px;
-  height: 50px;
+  width: 120px;
+  height: 70px;
   outline: none;
   justify-content: center;
   cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
 }
 
 .buttons {
